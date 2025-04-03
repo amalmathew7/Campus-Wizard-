@@ -1,7 +1,10 @@
 customtkinter
+opencv-python
+numpy
 ollama
-speechrecognition
+SpeechRecognition
 pyttsx3
-pillow
+Pillow
 gtts
 deep-translator
+face-recognition
