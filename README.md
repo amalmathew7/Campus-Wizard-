@@ -37,6 +37,7 @@ pip install -r requirements.txt
 
 ## 📷 UI Preview
 ![Campus Wizard UI](image.png)
+![Campus Wizard UI](ui_2.png)
 
 ## 📖 Configuration
 ### Modify Language Support
