@@ -1,0 +1,7 @@
+customtkinter
+ollama
+speechrecognition
+pyttsx3
+pillow
+gtts
+deep-translator
