@@ -1,7 +1,7 @@
 # Campus Wizard - AI-Powered Receptionist
 
 ## 📌 Project Overview
-Campus Wizard is an AI-powered virtual receptionist designed as Main Project by Amal Mathew , Arsha S and Harikrishnan H (21-25 CSEA ASIET) to assist users with campus-related queries. The system leverages **speech recognition, AI chat models, and text-to-speech synthesis** to provide seamless and interactive responses.
+Campus Wizard is an AI-powered virtual receptionist designed as Main Project by Amal Mathew, Arsha S, and Harikrishnan H (21-25 CSEA ASIET) to assist users with campus-related queries. The system leverages **speech recognition, AI chat models, and text-to-speech synthesis** to provide seamless and interactive responses.
 
 ## 🛠 Features
 - 🎤 **Voice Input:** Uses speech recognition to capture user queries.
@@ -10,6 +10,8 @@ Campus Wizard is an AI-powered virtual receptionist designed as Main Project by 
 - 🔊 **Text-to-Speech:** Converts responses to speech using **gTTS**.
 - 🖥 **CustomTkinter UI:** User-friendly and modern GUI.
 - 🏫 **Campus-Specific Knowledge:** Provides precise and relevant answers about the campus.
+- 📷 **Facial Recognition:** Identifies users through face recognition, allowing personalized interactions.
+- 💾 **Query Saving:** Stores user queries and responses for future reference.
 
 ## 🚀 Technologies Used
 - **Python** (Core Development)
@@ -19,6 +21,8 @@ Campus Wizard is an AI-powered virtual receptionist designed as Main Project by 
 - **Deep-Translator** (Language Translation)
 - **CustomTkinter** (Graphical Interface)
 - **Pillow** (Image Processing)
+- **face-recognition** (Facial Recognition)
+- **OpenCV** (Computer Vision)
 
 ## 📦 Installation
 Ensure you have Python installed (3.8+ recommended). Then, install dependencies using:
@@ -34,10 +38,14 @@ pip install -r requirements.txt
 2. Click the **ASK** button to start speaking.
 3. The AI processes your query and responds accordingly.
 4. Enable "Talk Back" to hear the response.
+5. The system will recognize your face or register a new user if not recognized.
+6. Queries will be saved for each user in a dedicated folder.
 
 ## 📷 UI Preview
 ![Campus Wizard UI](image.png)
 ![Campus Wizard UI](ui_2.png)
+User Data :
+![Campus Wizard UI](ui_3.png)
 
 ## 📖 Configuration
 ### Modify Language Support
@@ -49,6 +57,7 @@ selected_language = "en"  # Change to "ml" for Malayalam, etc.
 ## 🛠 Troubleshooting
 - **Microphone not detected?** Ensure your microphone is properly configured in system settings.
 - **No response from AI?** Check the Ollama model installation and ensure it's running correctly.
+- **Face not recognized?** Ensure good lighting and clear visibility of your face.
 
 ## 🤝 Contributing
 1. Fork the repository.
@@ -64,7 +73,7 @@ This project is licensed under the **MIT License**.
 - Enhance **natural language understanding** for more complex queries.
 - Support for **more languages**.
 - Improve UI responsiveness and aesthetics.
+- Implement **user-specific query insights**.
 
 ## 🌟 Show Your Support
 If you like this project, **star the repo** ⭐ and contribute! 🚀
-
