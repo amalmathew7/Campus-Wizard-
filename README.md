@@ -36,7 +36,7 @@ pip install -r requirements.txt
 4. Enable "Talk Back" to hear the response.
 
 ## 📷 UI Preview
-![Campus Wizard UI](assets/ui_screenshot.png)
+![Campus Wizard UI](image.png)
 
 ## 📖 Configuration
 ### Modify Language Support
