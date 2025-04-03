@@ -1,7 +1,7 @@
 # Campus Wizard - AI-Powered Receptionist
 
 ## 📌 Project Overview
-Campus Wizard is an AI-powered virtual receptionist designed to assist users with campus-related queries. The system leverages **speech recognition, AI chat models, and text-to-speech synthesis** to provide seamless and interactive responses.
+Campus Wizard is an AI-powered virtual receptionist designed as Main Project by Amal Mathew , Arsha S and Harikrishnan H (21-25 CSEA ASIET) to assist users with campus-related queries. The system leverages **speech recognition, AI chat models, and text-to-speech synthesis** to provide seamless and interactive responses.
 
 ## 🛠 Features
 - 🎤 **Voice Input:** Uses speech recognition to capture user queries.
